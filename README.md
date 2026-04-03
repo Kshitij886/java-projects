@@ -11,7 +11,7 @@ It includes basic to intermediate programs covering core concepts like OOP, data
 
 ---
 
-## 🚀 Topics Covered
+## 🚀 Topics Planing to Covered
 
 - ✅ Basics (Variables, Data Types, Operators)
 - 🔁 Control Flow (if-else, loops)
