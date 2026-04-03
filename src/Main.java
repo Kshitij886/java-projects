@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Main main = new Main();
         main.ifStatement();
+        main.loops();
         // Print out to console
 
 //        System.out.println("Hello world");
@@ -73,5 +74,10 @@ public class Main {
             System.out.println("You are an child");
         }
         scanner.close();
+    }
+    public void loops() {
+        for (int i = 0; i <= 5; i++){
+            System.out.println("i is " + i);
+        }
     }
 }
