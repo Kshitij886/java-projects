@@ -30,8 +30,29 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your name: ");
         String myName = scanner.nextLine();
-        System.out.println("Hello "+myName);
+        // input of int
 
+        System.out.println("Enter your age : ");
+        int age = scanner.nextInt();
+        System.out.println("Age is " + age);
+        System.out.println("Hello "+myName);
+        // for duble next.double for bool nextBoolean()
+        // to remove input buffer we can just call newLine method and dont assign to anything. it happens when we take integer as an input then string
+
+        // area of rec
+
+        double width = 0;
+        double height = 0;
+        double area = 0;
+        System.out.println("Enter Width: ");
+        width = scanner.nextDouble();
+
+        System.out.println("Enter height: ");
+        height = scanner.nextDouble();
+
+        area = width * height;
+
+        System.out.println("Area of rec is : " + area);
         scanner.close();
 
     }
